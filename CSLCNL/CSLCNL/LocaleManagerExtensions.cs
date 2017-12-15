@@ -69,7 +69,8 @@ namespace Makaki.CustomNameLists
             // Check if the id already exists; if so find next index
             if (locale.Exists(id))
             {
-                Log($"Localized string {localizedString.Identifier}[{localizedString.Key}] already exists, adding it with next available index.");
+                // Log message lags game on large namelists
+                // Log($"Localized string {localizedString.Identifier}[{localizedString.Key}] already exists, adding it with next available index.");
                 id.m_Index = locale.CountUnchecked(id);
             }
 
@@ -87,7 +88,8 @@ namespace Makaki.CustomNameLists
             zeroIndexID.m_Index = 0;
             localizedStringCounts[zeroIndexID] = id.m_Index + 1;
 
-            Log($"Added localized string {id} = '{localizedString.Value}', count = {localizedStringCounts[zeroIndexID]}.");
+            // Log message lags game on large namelists
+            // Log($"Added localized string {id} = '{localizedString.Value}', count = {localizedStringCounts[zeroIndexID]}.");
         }
     }
 }
