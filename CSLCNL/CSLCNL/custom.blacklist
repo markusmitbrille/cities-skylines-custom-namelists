@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<!-- An example blacklist with all the useful identifier/key combinations I could find. -->
+<BlackList 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Generated Blacklist (Complete Name List)">
+  <strings>
+    <!-- Building Names -->
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x4_Nightclub a" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x4_Nightclub b" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Restaurant" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Restaurant2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Karaoke Bar" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Bowling Alley" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x4 Game Arcade" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x3 Game Arcade" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Comedy Club" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Pub" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_cafe" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Gym" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Beauty Salon" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Restaurant01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Nightclub01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x3_Night_club_a" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Gym" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Cafe01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Restaurant02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x3_Nightclub01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Beauty Salon" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x4_Tourist Hotel" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x4_Tourist Hotel2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x4_Tourist Hotel3" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x1_Beach Bar2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Souvenir Shop" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x3_Beach Hotel" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x3_Beach Hotel2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x3_Beach Hotel3" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Beach restaurant" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Beach Restaurant2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_PrivatePool" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Hotel01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Hotel01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Hotel01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_beach_restaurant2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Hotel02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_terrace01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_terrace02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_terrace01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_terrace02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Souvenir Shop" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Beach Bar2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_Winter_Cafe" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Winter_Cafe" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_terrace_winter01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="1x1_terrace_winter02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_terrace_winter01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_terrace_winter02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x2_Winter_PrivatePool" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x3_winter_nightclub_01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="2x3_winter_nightclub_02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x4_winter_nightclub_01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="4x3_winter_hotel01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="3x2_Beach restaurant2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x1 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x1 03" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x1 04" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x2 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x2 03" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x3 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 1x4 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x1 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x1 03" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x2 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x3 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 2x4 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x1 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x2 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x3 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 3x4 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x1 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x2 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x3 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Eco Commercial 4x4 02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 1x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 1x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 1x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 1x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 2x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 2x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 2x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 2x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 3x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 3x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 3x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 3x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 4x1 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 4x2 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 4x3 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Hightech Office 4x4 01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Farming 4x4 Farm" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Farming 4x4 Farm 2" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Farming 4x4 Farm 3" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L3 3x2 Shop01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L3 2x2 Shop02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L3 3x3 Shop06" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L3 1x1 Shop" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L2 2x3 Shop03" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L1 1x1 Shop" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="H1 4x3 Shop02" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="H1 4x3 Shop01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="H2 1x1 Shop" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L1 3x2 Shop01" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="L1 4x3 Shop02a" />
+    <LocalizedStringKey identifier="BUILDING_NAME" key="Chirpcinema" />
+    <!-- Chirps -->
+    <LocalizedStringKey identifier="CHIRPER_NAME" />
+    <LocalizedStringKey identifier="CHIRP_DEFAULT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_WATER_PUMP" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_DRAIN_PIPE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_POWER_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_COAL_OR_OIL_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_NUCLEAR_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_LANDFILL_SITE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_COMBUSTION_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CLINIC" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FIRE_HOUSE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FIRE_STATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_POLICE_STATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_POLICE_HQ" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TOWN_HALL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CITY_HALL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ELEMENTARY_SCHOOL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_HIGH_SCHOOL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_UNIVERSITY" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BUS_LINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TRAIN_LINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_METRO_LINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_HARBOR" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_AIRPORT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_MONUMENT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_WONDER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CEMETERY" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CREMATORY" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BUS_DEPOT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CARGO_CENTER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CARGO_HARBOR" />
+    <LocalizedStringKey identifier="CHIRP_NEW_WIND_OR_SOLAR_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_NEW_HOSPITAL" />
+    <LocalizedStringKey identifier="CHIRP_NEW_UNIVERSITY" />
+    <LocalizedStringKey identifier="CHIRP_NEW_POLICE_HQ" />
+    <LocalizedStringKey identifier="CHIRP_NEW_FIRE_STATION" />
+    <LocalizedStringKey identifier="CHIRP_NEW_PARK" />
+    <LocalizedStringKey identifier="CHIRP_NEW_PLAZA" />
+    <LocalizedStringKey identifier="CHIRP_NEW_MONUMENT" />
+    <LocalizedStringKey identifier="CHIRP_ORGANIC_FARMING" />
+    <LocalizedStringKey identifier="CHIRP_PUBLIC_TRANSPORT_EFFICIENCY" />
+    <LocalizedStringKey identifier="CHIRP_DAYCARE_SERVICE" />
+    <LocalizedStringKey identifier="CHIRP_STUDENT_LODGING" />
+    <LocalizedStringKey identifier="CHIRP_ASSISTIVE_TECHNOLOGIES" />
+    <LocalizedStringKey identifier="CHIRP_CHEAP_FLOWERS" />
+    <LocalizedStringKey identifier="CHIRP_MILESTONE_REACHED" />
+    <LocalizedStringKey identifier="CHIRP_NEW_MAP_TILE" />
+    <LocalizedStringKey identifier="CHIRP_NEW_TILE_PLACED" />
+    <LocalizedStringKey identifier="CHIRP_NO_SCHOOLS" />
+    <LocalizedStringKey identifier="CHIRP_NO_HEALTHCARE" />
+    <LocalizedStringKey identifier="CHIRP_LOW_CRIME" />
+    <LocalizedStringKey identifier="CHIRP_HIGH_CRIME" />
+    <LocalizedStringKey identifier="CHIRP_LOW_HEALTH" />
+    <LocalizedStringKey identifier="CHIRP_TRASH_PILING_UP" />
+    <LocalizedStringKey identifier="CHIRP_NO_WATER" />
+    <LocalizedStringKey identifier="CHIRP_SEWAGE" />
+    <LocalizedStringKey identifier="CHIRP_NO_ELECTRICITY" />
+    <LocalizedStringKey identifier="CHIRP_LOW_HAPPINESS" />
+    <LocalizedStringKey identifier="CHIRP_HAPPY_PEOPLE" />
+    <LocalizedStringKey identifier="CHIRP_ATTRACTIVE_CITY" />
+    <LocalizedStringKey identifier="CHIRP_INDUSTRIAL_DEMAND" />
+    <LocalizedStringKey identifier="CHIRP_COMMERCIAL_DEMAND" />
+    <LocalizedStringKey identifier="CHIRP_RESIDENTIAL_DEMAND" />
+    <LocalizedStringKey identifier="CHIRP_FIRE_HAZARD" />
+    <LocalizedStringKey identifier="CHIRP_DEAD_PILING_UP" />
+    <LocalizedStringKey identifier="CHIRP_HIGH_TECH_LEVEL" />
+    <LocalizedStringKey identifier="CHIRP_ABANDONED_BUILDINGS" />
+    <LocalizedStringKey identifier="CHIRP_NEED_MORE_PARKS" />
+    <LocalizedStringKey identifier="CHIRP_POLLUTION" />
+    <LocalizedStringKey identifier="CHIRP_NOISEPOLLUTION" />
+    <LocalizedStringKey identifier="CHIRP_POISONED" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_PRISON" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TAXIDEPOT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BUSTATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_LARGEAIRPORT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CARGOHUB" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_STABLE" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Open247" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="DontTaxLeisure" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="NoLoudNoises" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="SchoolsOut" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="OldTown" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Tourist" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Leisure" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="BikeBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="EncourageBiking" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="DoubleSentences" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="StuddedTires" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="AntiSlip" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="ExtraInsulation" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="NoElectricity" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="OnlyElectricity" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="LightningRods" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="HelicopterPriority" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="VIPArea" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="FastRecovery" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="NoRebuild" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="PreferFerries" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="EducationalBlimps" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="HighTicketPrices" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="RecyclePlastic" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="CombustionEngineBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="ElectricCars" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="FilterIndustrialWaste" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Selfsufficient" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Organic" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Hightech" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="PremiumStudio" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="BandAdvertisement" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="SubsidizedYouth" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="ComeOneComeAll" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="MatchSecurity" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Forest" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Farming" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Oil" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Ore" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="PowerSaving" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="WaterSaving" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="SmokeDetectors" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="RecreationBoost" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="PetBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="Recycling" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="SmokingBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="EducationBoost" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="RecreationalUse" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="FreeTransport" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxRaiseResLow" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxRaiseResHigh" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxRaiseComLow" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxRaiseComHigh" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxRaiseOffice" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxLowerResLow" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxLowerResHigh" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxLowerComLow" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxLowerComHigh" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="TaxLowerOffice" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="SmallBusiness" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="BigBusiness" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="IndustrySpace" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="HighTechHousing" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="HighriseBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="HeavyTrafficBan" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="NoHomo" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="AllowWeapons" />
+    <LocalizedStringKey identifier="CHIRP_POLICY" key="AlligatorBan" />
+    <LocalizedStringKey identifier="CHIRP_NO_PRISONS" />
+    <LocalizedStringKey identifier="CHIRP_RANDOM" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TRAMDEPOT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SAUNA" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SKIRESORT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SPAHOTEL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BOILERSTATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SNOWDUMP" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ROADMAINTENANCEDEPOT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_GEOTHERMALPLANT" />
+    <LocalizedStringKey identifier="CHIRP_RANDOM_THEME" key="Winter" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SHELTER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_POLICEHELI" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FIREHELI" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_MEDICALHELI" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FIREWATCH" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_PUMPING" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_DISASTERRESPONSE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TSUNAMIBOYO" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_WEATHERSTATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_EARTHQUAKESENSOR" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_DISASTERMEMORIAL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_DOOMSDAYVAULT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_METEORITEPARK" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_UB1" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_UB2" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_UB3" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_WATERTANK" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Generic Flood" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Tsunami" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Thunderstorm" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Meteor Strike" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Sinkhole" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Tornado" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Chirpynado" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Earthquake" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Forest Fire" />
+    <LocalizedStringKey identifier="CHIRP_DISASTER" key="Structure Fire" />
+    <LocalizedStringKey identifier="CHIRP_RANDOM_DISASTERS" />
+    <LocalizedStringKey identifier="CHIRP_SURVIVORFOUND" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_LARGETRAINSTATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ENDOFLINETRAINSTATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FERRYLINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_MONORAILLINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CABLECARLINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BLIMPLINE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TRAFFICPARK" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_STEAMTRAIN" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BOATMUSEUM" />
+    <LocalizedStringKey identifier="CHIRP_RANDOM_INMOTION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ULTIMATE_RECYCLING_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CENTRAL_PARK" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FLOATING_GARDENS" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ZIGGURAT_GARDEN" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_LUNGS_OF_THE_CITY" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_CLIMATE_RESEARCH_STATION" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BIRD_AND_BEE_HAVEN" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_GEOTHERMAL_POWER_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_OCEAN_THERMAL_ENERGY_CONVERSION_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SOLAR_UPDRAFT_TOWER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ECO_WATER_OUTLET" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_ECO_WATER_TREATMENT_PLANT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_RECYCLING_CENTER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FLOATING_GARBAGE_COLLECTOR" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_COMMUNITY_POOL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_COMMUNITY_POOL_WINTER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_SPORTS_HALL_AND_GYMNASIUM" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_YOGA_GARDEN" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_YOGA_GARDEN_WINTER" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_COMMUNITY_SCHOOL" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_UNIVERSITY_OF_CREATIVE_ARTS" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_MODERN_TECHNOLOGY_INSTITUTE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_BIOFUEL_BUS_DEPOT" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_TROPICAL_GARDEN" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FLOATING_CAFE" />
+    <LocalizedStringKey identifier="CHIRP_FIRST_FISHING_ISLAND" />
+    <LocalizedStringKey identifier="CHIRP_RANDOM_EXP5" />
+    <LocalizedStringKey identifier="CHIRP_BAND_NESTOR" />
+    <LocalizedStringKey identifier="CHIRP_BAND_LILY" />
+    <LocalizedStringKey identifier="CHIRP_BAND_MOTI" />
+    <LocalizedStringKey identifier="CHIRP_NEW_FESTIVALAREA" />
+    <LocalizedStringKey identifier="CHIRP_UPGRADE_FESTIVALAREA" />
+    <!-- Zoned Building Names -->
+    <LocalizedStringKey identifier="OFFICE_NAME" key="Level1" />
+    <LocalizedStringKey identifier="OFFICE_NAME" key="Level2" />
+    <LocalizedStringKey identifier="OFFICE_NAME" key="Level3" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="Level1" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="Level2" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="Level3" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="IndustrialForestry" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="IndustrialFarming" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="IndustrialOil" />
+    <LocalizedStringKey identifier="INDUSTRIAL_NAME" key="IndustrialOre" />
+    <LocalizedStringKey identifier="EXTRACTOR_NAME" key="IndustrialForestry" />
+    <LocalizedStringKey identifier="EXTRACTOR_NAME" key="IndustrialFarming" />
+    <LocalizedStringKey identifier="EXTRACTOR_NAME" key="IndustrialOil" />
+    <LocalizedStringKey identifier="EXTRACTOR_NAME" key="IndustrialOre" />
+    <LocalizedStringKey identifier="COMMERCIAL_LOW_NAME" key="Level1" />
+    <LocalizedStringKey identifier="COMMERCIAL_LOW_NAME" key="Level2" />
+    <LocalizedStringKey identifier="COMMERCIAL_LOW_NAME" key="Level3" />
+    <LocalizedStringKey identifier="COMMERCIAL_HIGH_NAME" key="Level1" />
+    <LocalizedStringKey identifier="COMMERCIAL_HIGH_NAME" key="Level2" />
+    <LocalizedStringKey identifier="COMMERCIAL_HIGH_NAME" key="Level3" />
+    <LocalizedStringKey identifier="RESIDENCE_LOW_PATTERN" key="Level1" />
+    <LocalizedStringKey identifier="RESIDENCE_LOW_PATTERN" key="Level2" />
+    <LocalizedStringKey identifier="RESIDENCE_LOW_PATTERN" key="Level3" />
+    <LocalizedStringKey identifier="RESIDENCE_LOW_PATTERN" key="Level4" />
+    <LocalizedStringKey identifier="RESIDENCE_LOW_PATTERN" key="Level5" />
+    <LocalizedStringKey identifier="RESIDENCE_HIGH_PATTERN" key="Level1" />
+    <LocalizedStringKey identifier="RESIDENCE_HIGH_PATTERN" key="Level2" />
+    <LocalizedStringKey identifier="RESIDENCE_HIGH_PATTERN" key="Level3" />
+    <LocalizedStringKey identifier="RESIDENCE_HIGH_PATTERN" key="Level4" />
+    <LocalizedStringKey identifier="RESIDENCE_HIGH_PATTERN" key="Level5" />
+    <LocalizedStringKey identifier="RESIDENCE_NAME" />
+    <!-- District Names -->
+    <LocalizedStringKey identifier="DISTRICT_PATTERN" />
+    <LocalizedStringKey identifier="DISTRICT_NAME" />
+    <!-- Cim Names -->
+    <LocalizedStringKey identifier="NAME_MALE_FIRST" />
+    <LocalizedStringKey identifier="NAME_MALE_LAST" />
+    <LocalizedStringKey identifier="NAME_FEMALE_FIRST" />
+    <LocalizedStringKey identifier="NAME_FEMALE_LAST" />
+    <!-- Bank Names -->
+    <LocalizedStringKey identifier="BANKNAME" key="BankA" />
+    <LocalizedStringKey identifier="BANKNAME" key="BankB" />
+    <LocalizedStringKey identifier="BANKNAME" key="BankC" />
+    <!-- Connections Names -->
+    <LocalizedStringKey identifier="CONNECTIONS_PATTERN" key="America" />
+    <LocalizedStringKey identifier="CONNECTIONS_PATTERN" key="Europe" />
+    <LocalizedStringKey identifier="CONNECTIONS_PATTERN" key="Mideast" />
+    <LocalizedStringKey identifier="CONNECTIONS_PATTERN" key="Spanish" />
+    <LocalizedStringKey identifier="CONNECTIONS_NAME" key="America" />
+    <LocalizedStringKey identifier="CONNECTIONS_NAME" key="Europe" />
+    <LocalizedStringKey identifier="CONNECTIONS_NAME" key="Mideast" />
+    <LocalizedStringKey identifier="CONNECTIONS_NAME" key="Spanish" />
+    <!-- Transport Line Names -->
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Tram" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Ferry" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Blimp" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Monorail" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Bus" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Metro" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Train" />
+    <!-- Road Names -->
+    <LocalizedStringKey identifier="ROAD_NAME_PATTERN" />
+    <LocalizedStringKey identifier="STREET_NAME_PATTERN" />
+    <LocalizedStringKey identifier="AVENUE_NAME_PATTERN" />
+    <LocalizedStringKey identifier="HIGHWAY_NAME_PATTERN" />
+    <LocalizedStringKey identifier="BRIDGE_NAME_PATTERN" />
+    <LocalizedStringKey identifier="TUNNEL_NAME_PATTERN" />
+  </strings>
+</BlackList>
