@@ -7,5 +7,6 @@ namespace Makaki.CustomNameLists
         public static string LocaleExportDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
         public static bool UseBlacklists = true;
+        public static bool UseNamelists = true;
     }
 }
