@@ -9,11 +9,8 @@ namespace Makaki.CustomNameLists
     {
         public override void OnCreated(ILoading loading)
         {
-            Log("Adding locale change event handlers...");
-
             // Add post locale change event handlers
-            LocaleManager.eventLocaleChanged += NameListManager.ApplyBlackLists;
-            LocaleManager.eventLocaleChanged += NameListManager.ApplyNameLists;
+            LocaleManager.eventLocaleChanged += OnLocaleChanged;
 
             Log("Added locale change event handlers.");
 
@@ -23,16 +20,29 @@ namespace Makaki.CustomNameLists
 
         public override void OnReleased()
         {
-            Log("Removing locale change event handlers...");
- 
             // Remove post locale change event handlers
-            LocaleManager.eventLocaleChanged -= NameListManager.ApplyBlackLists;
-            LocaleManager.eventLocaleChanged -= NameListManager.ApplyNameLists;
+            LocaleManager.eventLocaleChanged -= OnLocaleChanged;
 
             Log("Removed locale change event handlers.");
 
             // Reload the current locale once to effect changes
             LocaleManager.ForceReload();
+        }
+
+        private void OnLocaleChanged()
+        {
+            Log("Locale changed callback started.");
+
+            if (Settings.UseBlacklists)
+            {
+                NameListManager.ApplyBlackLists();
+            }
+            if (Settings.UseNamelists)
+            {
+                NameListManager.ApplyNameLists();
+            }
+
+            Log("Locale changed callback finished.");
         }
     }
 }
