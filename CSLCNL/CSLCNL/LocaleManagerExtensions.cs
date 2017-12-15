@@ -33,8 +33,6 @@ namespace Makaki.CustomNameLists
 
         public static void RemoveRange(this LocaleManager localeManager, Locale.Key id)
         {
-            Log($"Removing locale range {id}...");
-
             Locale locale = localeManager.GetLocale();
 
             // Set index to 0 so we can check for the string count
@@ -55,13 +53,11 @@ namespace Makaki.CustomNameLists
                 localizedStringsCount.Remove(id);
             }
 
-            Log($"Removed locale range {id}.");
+            Log($"Removed locale range {id.m_Identifier}[{id.m_Key}].");
         }
 
         public static void AddString(this LocaleManager localeManager, LocalizedString localizedString)
         {
-            Log($"Adding localized string {localizedString.Identifier}[{localizedString.Key}] = '{localizedString.Value}'...");
-
             Locale locale = localeManager.GetLocale();
 
             // Construct 0-index id for the localized string from argument
@@ -91,7 +87,7 @@ namespace Makaki.CustomNameLists
             zeroIndexID.m_Index = 0;
             localizedStringCounts[zeroIndexID] = id.m_Index + 1;
 
-            Log($"Added localized string {id} = '{localizedString.Value}'.");
+            Log($"Added localized string {id} = '{localizedString.Value}', count = {localizedStringCounts[zeroIndexID]}.");
         }
     }
 }

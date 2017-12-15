@@ -19,8 +19,6 @@ namespace Makaki.CustomNameLists
 
         public static void PrintLocale()
         {
-            Log($"Printing locale to {Settings.LocaleExportDirectory}...");
-
             if (!Directory.Exists(Settings.LocaleExportDirectory))
             {
                 Error($"Could not print locale; directory '{Settings.LocaleExportDirectory}' not found!");
@@ -50,13 +48,11 @@ namespace Makaki.CustomNameLists
                 serializer.Serialize(stream, completeNameList);
             }
 
-            Log($"Printing locale to {Settings.LocaleExportDirectory}.");
+            Log($"Printed locale to {Settings.LocaleExportDirectory}.");
         }
 
         public static void ApplyBlackLists()
         {
-            Log("Applying blacklists...");
-
             if (!Settings.UseBlacklists)
             {
                 Warning("Blacklists are disabled in mod settings; returning!");
@@ -85,8 +81,6 @@ namespace Makaki.CustomNameLists
 
         public static void ApplyNameLists()
         {
-            Log("Applying namelists...");
-
             XmlSerializer serializer = new XmlSerializer(typeof(NameList));
 
             foreach (string nameListFile in

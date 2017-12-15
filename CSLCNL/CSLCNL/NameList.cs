@@ -1,10 +1,8 @@
 ﻿using ColossalFramework;
 using ColossalFramework.Globalization;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.Serialization;
+
+using static Makaki.CustomNameLists.DebugUtils;
 
 namespace Makaki.CustomNameLists
 {
@@ -22,6 +20,8 @@ namespace Makaki.CustomNameLists
             {
                 localeManager.AddString(localizedString);
             }
+
+            Log($"Namelist {Name} applied.");
         }
     }
 }
