@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<BlackList 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Vienna">
+  <strings>
+    <!-- District Names -->
+    <LocalizedStringKey identifier="DISTRICT_PATTERN" />
+    <!-- Bank Names -->
+    <LocalizedStringKey identifier="BANKNAME" key="BankA" />
+    <LocalizedStringKey identifier="BANKNAME" key="BankB" />
+    <LocalizedStringKey identifier="BANKNAME" key="BankC" />
+    <!-- Transport Line Names -->
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Tram" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Ferry" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Monorail" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Bus" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Metro" />
+    <LocalizedStringKey identifier="TRANSPORT_LINE_PATTERN" key="Train" />
+    <!-- Road Names -->
+    <LocalizedStringKey identifier="ROAD_NAME_PATTERN" />
+    <LocalizedStringKey identifier="STREET_NAME_PATTERN" />
+    <LocalizedStringKey identifier="AVENUE_NAME_PATTERN" />
+    <LocalizedStringKey identifier="HIGHWAY_NAME_PATTERN" />
+    <LocalizedStringKey identifier="BRIDGE_NAME_PATTERN" />
+    <LocalizedStringKey identifier="TUNNEL_NAME_PATTERN" />
+  </strings>
+</BlackList>

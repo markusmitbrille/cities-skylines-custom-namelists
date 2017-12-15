@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLCNL", "CSLCNL\CSLCNL.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamelistGenerator", "NamelistGenerator\NamelistGenerator.csproj", "{A7488E3F-1C02-40F2-A7E3-709511A52D63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{740A27DF-04C3-4D83-AA98-D3A36CB14845}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\vienna.blacklist = Examples\vienna.blacklist
+		Examples\vienna.csv = Examples\vienna.csv
+		Examples\vienna.namelist = Examples\vienna.namelist
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
