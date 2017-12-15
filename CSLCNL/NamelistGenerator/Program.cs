@@ -15,7 +15,7 @@ namespace NamelistGenerator
     {
         static void Main(string[] args)
         {
-            ConvertCSVToNameList(@"C:\Users\makak\Desktop\vienna.txt");
+            ConvertCSVToNameList(@"C:\Users\makak\Desktop\vienna.csv");
         }
 
         static void ConvertCSVToNameList(string csvFile)
@@ -25,13 +25,17 @@ namespace NamelistGenerator
             string[] rows = File.ReadAllText(csvFile).Split('\r', '\n');
             foreach (string row in rows)
             {
+                if (string.IsNullOrEmpty(row))
+                {
+                    continue;
+                }
+
                 string[] cols = row.Split(',');
                 string identifier = cols[0];
-                string key = cols[1];
+                string key = cols[1] == string.Empty ? null : cols[1];
                 string value = cols[2];
 
                 if (string.IsNullOrEmpty(identifier) ||
-                    string.IsNullOrEmpty(key) ||
                     string.IsNullOrEmpty(value))
                 {
                     continue;
