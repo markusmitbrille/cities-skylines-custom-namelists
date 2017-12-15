@@ -26,8 +26,9 @@ namespace Makaki.CustomNameLists
 
         public void OnSettingsUI(UIHelperBase helper)
         {
-            helper.AddCheckbox("Remove blacklisted default names", Settings.UseBlacklists, (isChecked) => Settings.UseBlacklists = isChecked);
-            helper.AddButton("Export complete namelist", NameListManager.PrintLocale);
+            helper.AddCheckbox("Use Blacklists", Settings.UseBlacklists, (isChecked) => Settings.UseBlacklists = isChecked);
+            helper.AddCheckbox("Use Namelists", Settings.UseNamelists, (isChecked) => Settings.UseNamelists = isChecked);
+            helper.AddButton("Export Complete Namelist", NameListManager.PrintLocale);
             helper.AddButton("Apply Changes", LocaleManager.ForceReload);
         }
 
